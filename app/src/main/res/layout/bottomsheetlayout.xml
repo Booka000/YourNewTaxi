@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/new_ride"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/pickup_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pick_up"
+            android:layout_marginStart="2dp"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/destination_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/destination"
+            android:layout_marginStart="2dp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/distance_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/distance"
+            android:layout_marginStart="2dp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/price_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/distance"
+            android:layout_marginStart="2dp"
+            android:textSize="20sp"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Reject"
+            android:text="@string/reject"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:background="@drawable/reject_botton"
+            android:layout_margin="10sp"
+            android:padding="20sp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/accept"
+            android:text="@string/accept"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:background="@drawable/accept_bottom"
+            android:layout_margin="10sp"
+            android:padding="20sp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Your New Taxi</string>
+    <string name="title_activity_driver_map">driverMapActivity</string>
+    <string name="title_activity_customer_map">customerMapActivity</string>
+    <string name="logout">Logout</string>
+    <string name="find_driver">FIND DRIVER</string>
+    <string name="online">Online:</string>
+    <string name="i_m_a_customer">I\'m a customer</string>
+    <string name="i_m_a_driver">I\'m a driver</string>
+    <string name="cancel_the_ride">Cancel the ride</string>
+    <string name="back">Back</string>
+    <string name="login">Login</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="phone_number">Phone number</string>
+    <string name="signup">Signup</string>
+    <string name="become_our_partner"><u>Become our partner today!</u></string>
+    <string name="register"><u>Don\'t have account? Register now!</u></string>
+    <string name="car_model">Car model</string>
+    <string name="google_key">AIzaSyB3pjaM9Zu7JUVw7qwvjEJ8Xt9ffK1RIGw</string>
+    <string name="new_ride">NEW RIDE</string>
+    <string name="edit">Edit</string>
+    <string name="pick_up">Pick up</string>
+    <string name="destination">Destination</string>
+    <string name="distance">Distance</string>
+    <string name="reject">reject</string>
+    <string name="accept">accept</string>
+    <string name="customer_picked">Customer Picked</string>
+    <string name="finish_ride">Finish Ride</string>
+    <string name="the_ride_was_canceled">The Ride was canceled :(</string>
+    <string name="ok">ok</string>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".driver.DriverMapActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/logout"
+        android:id="@+id/Logout"/>
+
+    <Switch
+        android:id="@+id/working_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:text="@string/online"
+        android:paddingTop="5dp"
+        android:textSize="20sp"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/picked_up_customer"
+            android:text="@string/customer_picked"
+            android:background="@color/purple_500"
+            android:visibility="gone"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/finish_ride"
+            android:text="@string/finish_ride"
+            android:background="@color/green11"
+            android:visibility="gone"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancel_button"
+            android:text="@string/cancel_the_ride"
+            android:background="@color/red"
+            android:visibility="gone"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <include layout="@layout/bottom_sheet_driver"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+</FrameLayout>
